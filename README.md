@@ -121,3 +121,9 @@ class Maze {
 Program --> Game
 Game --> Player
 Game --> Maze
+
+
+
+## 📌 Author\ Moaaz Abdullah
+
+Built for learning purposes to improve OOP and game logic skills in C#.
