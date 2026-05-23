@@ -70,7 +70,7 @@ Use the arrow keys:
 
 ## 📸 Screenshot
 
-*(Optional - add screenshot of console game here)*
+<img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/5276aae0-fd00-4f01-8d96-635eb664ec06" />
 
 ---
 
@@ -81,6 +81,6 @@ Use the arrow keys:
 
 ---
 
-## 📌 Author
-##Moaaz Abdullah
+## 📌 Moaaz Abdullah
+
 Built for learning purposes to improve OOP and game logic skills in C#.
