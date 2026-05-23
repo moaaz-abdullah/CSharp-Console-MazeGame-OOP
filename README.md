@@ -81,6 +81,12 @@ Use the arrow keys:
 
 ---
 
+## 📌 Author\ Moaaz Abdullah
+
+Built for learning purposes to improve OOP and game logic skills in C#.
+
+---
+
 ## 📐 Class Diagram (UML)
 
 ```mermaid
@@ -121,9 +127,3 @@ class Maze {
 Program --> Game
 Game --> Player
 Game --> Maze
-
-
-
-## 📌 Author\ Moaaz Abdullah
-
-Built for learning purposes to improve OOP and game logic skills in C#.
