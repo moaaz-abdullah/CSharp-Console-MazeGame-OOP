@@ -80,6 +80,56 @@ Use the arrow keys:
 - .NET Console Application
 
 ---
+## 📐 Class Diagram (UML)
+
+```mermaid
+classDiagram
+
+class Program {
+    +Main(string[] args)
+}
+
+class Game {
+    -Player _myPlayer
+    -Maze _myMaze
+    -bool _isGameOver
+    +Start()
+    -HandleInput()
+}
+
+class Player {
+    +int X
+    +int Y
+    +Player(int x, int y)
+    +MoveUp()
+    +MoveDown()
+    +MoveLeft()
+    +MoveRight()
+}
+
+class Maze {
+    -string[] _grid
+    +int Width
+    +int Height
+    +Maze(string[] grid)
+    +Draw()
+    +IsWall(int x, int y)
+    +IsExit(int x, int y)
+}
+
+Program --> Game
+Game --> Player
+Game --> Maze
+
+```markdown id="uml2"
+## 🧠 Design Explanation
+
+- `Game` is the core controller of the application (Game Loop).
+- `Player` handles player position and movement logic.
+- `Maze` is responsible for rendering the map and detecting walls and exit.
+- `Program` is the entry point that starts the game.
+
+This design follows **Single Responsibility Principle (SRP)** and basic **OOP separation of concerns**.
 
 ## 📌 Moaaz Abdullah
 
