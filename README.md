@@ -39,10 +39,10 @@ Represents the player position and movement logic.
 
 Use the arrow keys:
 
-- ⬆ Move Up
-- ⬇ Move Down
-- ⬅ Move Left
-- ➡ Move Right
+- ⬆ Move Up  
+- ⬇ Move Down  
+- ⬅ Move Left  
+- ➡ Move Right  
 
 🎯 Objective: Reach the exit `E` without passing through walls.
 
@@ -80,6 +80,7 @@ Use the arrow keys:
 - .NET Console Application
 
 ---
+
 ## 📐 Class Diagram (UML)
 
 ```mermaid
@@ -120,17 +121,3 @@ class Maze {
 Program --> Game
 Game --> Player
 Game --> Maze
-
-```markdown id="uml2"
-## 🧠 Design Explanation
-
-- `Game` is the core controller of the application (Game Loop).
-- `Player` handles player position and movement logic.
-- `Maze` is responsible for rendering the map and detecting walls and exit.
-- `Program` is the entry point that starts the game.
-
-This design follows **Single Responsibility Principle (SRP)** and basic **OOP separation of concerns**.
-
-## 📌 Moaaz Abdullah
-
-Built for learning purposes to improve OOP and game logic skills in C#.
