@@ -92,7 +92,7 @@ namespace MazeGame
             Console.ForegroundColor = ConsoleColor.Green; 
             Console.WriteLine("────────────────────────────────────────");
             Console.WriteLine("                𓆩༺✧༻𓆪                 ");
-            Console.WriteLine("  ꧁   Winner Winner chiken dinner ꧂ ");
+            Console.WriteLine(" ꧁   Winner Winner chicken dinner ꧂ ");
             Console.WriteLine("                                        ");
             Console.WriteLine("────────────────────────────────────────");
             Console.ResetColor();
