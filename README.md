@@ -69,6 +69,7 @@ Use the arrow keys:
 ## 📸 Screenshot
 
 <img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/bbba1e51-a6f5-4e8f-bdac-11ccf0ccfaab" />
+<img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/13d48137-cc5c-40b6-b39a-a3a4fb22d749" />
 
 ---
 
