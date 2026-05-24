@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 
 namespace MazeGame
@@ -11,6 +12,8 @@ namespace MazeGame
         private Maze _myMaze;
 
         private bool _isGameOver;
+
+        Stopwatch stopwatch = new Stopwatch();
 
         public Game()
         {
@@ -48,6 +51,7 @@ namespace MazeGame
                 if (_myMaze.IsExit(_myPlayer.X, _myPlayer.Y))
                 {
                     Console.Clear();
+                    stopwatch.Stop();
                     Winner();
                 }
                 else
@@ -58,6 +62,8 @@ namespace MazeGame
         private void HandleInput()
         {
             ConsoleKeyInfo keyInfo = Console.ReadKey(true);
+
+            stopwatch.Start();
 
             switch (keyInfo.Key)
             {
@@ -89,13 +95,14 @@ namespace MazeGame
 
         private void Winner()
         {
-            Console.ForegroundColor = ConsoleColor.Green; 
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("────────────────────────────────────────");
             Console.WriteLine("                𓆩༺✧༻𓆪                 ");
             Console.WriteLine(" ꧁   Winner Winner chicken dinner ꧂ ");
             Console.WriteLine("                                        ");
             Console.WriteLine("────────────────────────────────────────");
             Console.ResetColor();
+            Console.WriteLine($"Elapsed Time: {(stopwatch.ElapsedMilliseconds) / 1000.0} sec");
 
             _isGameOver = true;
         }
