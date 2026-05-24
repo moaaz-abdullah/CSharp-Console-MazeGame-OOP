@@ -13,6 +13,7 @@ namespace MazeGame
 
         private bool _isGameOver;
 
+        // Add timer, score system
         Stopwatch stopwatch = new Stopwatch();
 
         public Game()
