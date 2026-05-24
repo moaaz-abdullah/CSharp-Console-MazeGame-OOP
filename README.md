@@ -62,15 +62,13 @@ Use the arrow keys:
 
 - Add random maze generation
 - Add levels system
-- Add timer or score system
-- Improve rendering performance
 - Add enemies or traps
 
 ---
 
 ## 📸 Screenshot
 
-<img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/5276aae0-fd00-4f01-8d96-635eb664ec06" />
+<img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/bbba1e51-a6f5-4e8f-bdac-11ccf0ccfaab" />
 
 ---
 
